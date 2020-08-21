@@ -1,0 +1,455 @@
+<!doctype html>
+
+<!-- Hello! This is the Y/DSA website template made by Lex from UCLA YDSA. This is based on a free template from Colorlib.com.
+ If you have experience with web coding, feel free to tear this up and make it significantly better. If you don't, no worries! I've 
+ tried to include many comments to describe what each section does and where you should edit to add personalization. -->
+
+<html lang="en"><head>
+<!-- This is for the title in the browser. Put in your chapter's name -->
+    <title>CHAPTER NAME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<!-- This adds in the official DSA font ManifoldDSA. I would not suggest changing from this font. -->
+    <style>
+	@font-face {
+  		font-family: ManifoldDSA;
+  		src: url(ManifoldDSA-Bold.woff);
+	}
+    </style>    
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
+  
+
+  <div id="overlayer" style="display: none;"></div>
+  <div class="loader" style="display: none;">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <div id="sticky-wrapper" class="sticky-wrapper" style="height: 97px;"><header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container" style="max-width: 100%; padding-right: 5%; padding-left: 5%;">
+        <div class="row align-items-center">
+<!-- Depending on the size of your chapter icon & name (below), you may need to change the values of the flex & max-width for
+the header sections. I would try to avoid it if possible, though, as this part can be very annoying! -->
+          <div class="col-6 col-xl-2" style="flex: 0 0 50%; max-width: 50%;">
+            <h1 class="mb-0 site-logo" style="font-family: ManifoldDSA;">
+<!-- This is where you want to put in the icon for your chapter, if you have one. Put the name of the file in the "src" section,
+and adjust the "max-width" & "max-height" values depending on sizing. Keep it small! -->
+			<image class="d-none d-sm-inline" style="max-width: 15%; max-height: 15%; margin-right: 10px;" src="images/BearRoseDesign5.png">
+<!-- This is the left side of the header, where the name of your chapter will go. Try to keep it short here! Acronyms are best.
+If it can't fit here easily, considering simply putting "YDSA" or your icon, and then putting the full chapter name in the center tag line below -->
+		<a href="index.html" class="h2 mb-0">Y/DSA</a>
+	    </h1>
+          </div>
+		  
+<!-- Another header section whose flex & max-width would need changing if icon/name too big -->
+          <div class="col-12 col-md-10 d-none d-xl-block" style="flex: 0 0 50%; max-width: 50%;">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+<!-- This is the list that contains all the items in the header. Feel free to change the names of any of these sections,
+or remove ones you wont use. Try to avoid changing the href values if you don't know HTML, as that can mess up the links.
+If you remove any section down below, make sure to remove it here too!! -->
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link active">Home</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">About YDSA</a>
+                  <ul class="dropdown">
+                    	<li><a href="#site-section" class="nav-link">Organizing</a></li>
+						<li><a href="#team-section" class="nav-link">Coordinating Committee</a></li>
+				  </ul>
+                </li>       
+                <li><a href="#blog-section" class="nav-link">Calendar</a></li>
+                <li><a href="#contact-section" class="nav-link"><b>Get Involved</b></a></li>
+              </ul>
+            </nav>
+          </div>
+
+<!-- Another header section whose flex & max-width would need changing if icon/name too big -->
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px; flex: 0 0 50%; max-width: 50%;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header></div>
+
+  
+<!-- This is the background image that appears on the home page. The black & white effect is done through photoshop, so
+do that to whatever image you upload first. Put the name of your file in the 'style' section after 'images/' inside the url()-->
+    <div class="site-blocks-cover overlay aos-init aos-animate" style="background-image: url(images/hero_2.jpg);" data-aos="fade" id="home-section" width="100%">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-8 mt-lg-5 text-center">
+<!-- This is the center tag line. I used the labor party moto, since it's awesome, but feel free to put whater statements you want here,
+including your chapter name if it is too long for the header. -->
+            <h1 class="text-uppercase aos-init aos-animate" data-aos="fade-up" style="font-family: ManifoldDSA;">for the many, not the few.</h1>
+<!-- This is the short paragraph that appears below the tagline. Try to keep it general, but include some key info like meeting times etc. -->
+            <p class="mb-5 desc aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Young Democratic Socialists of America are fighting for a socialist future here on campus. Meetings every _____ @ ___.</p>
+            <div data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+<!-- The join button here directs to the 'Get Involved' section at the bottom of the page. -->
+              <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Join Today</a>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+      <a href="#about-section" class="mouse smoothscroll">
+        
+      </a>
+    </div>  
+<a href="#about-section" class="mouse smoothscroll d-none d-sm-block">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    
+	
+<!-- First Section: About DSA -->	
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center aos-init aos-animate" data-aos="fade">
+<!-- Title of first section: In this case, About YDSA -->
+            <h2 class="section-title mb-3">About YDSA</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="">
+            <figure class="">
+<!-- This is the image that appears next to your about info. Put the name of your file in the 'src' section after '/images/'-->
+            <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+<!-- Another catchy tagline header here -->
+              <h3 class="h3 mb-4 text-black">The future is ours to win</h3>
+<!-- Generic Y/DSA description -->
+              <p>Democratic Socialists of America (DSA) is the largest socialist organization in America, and YDSA is the Youth & campus wing of that org. DSA has over 66,000 members, including congresswomen Alexandria Ocasio-Cortez & Rashida Tlaib. As socialists, we believe that:</p>
+              
+            </div>
+            
+            
+<!-- Some important principles of the organization. Feel free to change these based on chapter preference, but stay generally
+within the DSA framework of anticapitalism -->
+            <div class="mb-4">
+              <ul class="list-unstyled ul-check success">
+                <li>The economy should be run democratically by workers</li>
+                <li>The liberation of all oppressed peoples requires the abolition of Capitalism</li>
+                <li>The US imperial empire must be dismantled globally</li>
+                <li>We can win these victories through working class struggle!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <section class="site-section" id="site-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+<!-- Second section: In this case, Organizing our chapter has done -->
+            <h2 class="section-title mb-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="">Our Organizing</h2>
+<!-- Short paragraph on what king of organizing your chapter does. -->
+            <p class="lead aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">CHAPTER NAME organizes on a number of different fronts to build student and worker power at our university, including ______, ______, and ______. See some highlights below.</p>
+          </div>
+        </div>
+        
+<!-- This is the slideshow that appears in the organizing section. The first part of this code is for the images,
+the second is for the text. Try to keep your images and text matching! -->
+       <div class="row" >
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+
+<!-- The images -->
+            <div class="owl-carousel slide-one-item-alt">
+			<!-- First slide -->
+              <img src="images/slide_1.jpg" alt="Image" class="img-fluid">
+			<!-- Second slide -->
+              <img src="images/slide_2.jpg" alt="Image" class="img-fluid">
+			<!-- Third slide -->
+              <img src="images/slide_3.jpg" alt="Image" class="img-fluid">
+			<!-- Fourth slide -->
+              <img src="images/slide_4.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="custom-direction">
+              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+            </div>
+
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+<!-- The text. Each text section includes a title, a tagline, and a short description section. -->
+            <div class="owl-carousel slide-one-item-alt-text">
+            <!-- First slide -->  
+			  <div>
+                <h2 class="section-title mb-3">Title 1</h2>
+                <p class="lead">Tagline 1</p>
+                <p>Short Description 1</p>
+              </div>
+            <!-- Second slide -->  
+			  <div>
+                <h2 class="section-title mb-3">Title 2</h2>
+                <p class="lead">Tagline 2</p>
+                <p>Short Description 2</p>
+			  </div>
+			<!-- Third slide -->  
+              <div>
+                <h2 class="section-title mb-3">Title 3</h2>
+                <p class="lead">Tagline 3</p>
+                <p>Short Description 3</p>
+              </div>
+			<!-- Fourth slide -->  
+              <div>
+                <h2 class="section-title mb-3">Title 4</h2>
+                <p class="lead">Tagline 4</p>
+                <p>Short Description 4</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+<!-- This is the third section of the website. In this case: the Coordinating Committee. -->
+    <section class="site-section border-bottom" id="team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3 aos-init" data-aos="fade-up" data-aos-delay="">Coordinating Committee</h2>
+            <p class="lead aos-init" data-aos="fade-up" data-aos-delay="100">CHAPTER NAME is lead by a democratically elected Coordinating Committee, which establishes chapter priorities, organizes meetings, manages funds, and ensures that the chapter grows and develops in healthy ways.</p>
+          </div>
+        </div>
+        <div class="row">
+          
+<!-- Here are the members of the CC. Each member section is comprised of an image, name, and role -->
+          <div class="col-md-6 col-lg-3 mb-4 aos-init" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+              <figure>
+			  <!-- Image -->
+                <img src="images/anonIcon.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+			  <!-- Name -->
+                <h3>Fake Name</h3>
+			  <!-- Role -->
+                <span class="position">Interim Co-Chair</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4 aos-init" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <figure>
+			  <!-- Image -->
+                <img src="images/anonIcon.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+			  <!-- Name -->
+                <h3>Name</h3>
+			  <!-- Role -->
+                <span class="position">Vice-Chair</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <figure>
+			  <!-- Image -->
+                <img src="images/anonIcon.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+			  <!-- Name -->
+                <h3>Name</h3>
+			  <!-- Role -->
+                <span class="position">Secretary</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4 aos-init" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <figure>
+			  <!-- Image -->
+                <img src="images/anonIcon.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+			  <!-- Name -->
+                <h3>Name</h3>
+			  <!-- Role -->
+                <span class="position">Treasurer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4 aos-init" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+              <figure>
+			  <!-- Image -->
+                <img src="images/anonIcon.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+			  <!-- Name -->
+                <h3>Name</h3>
+			  <!-- Role -->
+                <span class="position">Membership</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+<!-- This is the fourth section of the website: calendar. For this section, I just link to a google calendar run by the 
+chapter email. -->
+    <section class="site-section" style="text-align:center;" id="blog-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center aos-init" data-aos="fade">
+<!-- Title of the section -->
+            <h2 class="section-title mb-3">Calendar</h2>
+<!-- Short tagline. I like to put info about regular chapter meetings here, so it's easy to see. -->
+	    <p class="lead aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Chapter Meetings every _____ @ _____.</p>
+          </div>
+        </div>
+	
+	<div>
+<!-- This first iframe is for the calendar that will appear on desktop, which is larger than the one that will appear on mobile.
+You're going to want to put the link to your calendar that you get from google froms in the src section here. -->
+	<iframe class="d-none d-sm-block" src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=eWRzdWNsYUBnbWFpbC5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043" style="border:solid 1px #777" height="600" frameborder="0" scrolling="no"></iframe>
+
+<!-- This one is for the mobile calendar, which will just be a agenda list instead. It is a SEPERATE LINK from the web calendar,
+and you have select the right options in google calendar to get a specifically AGENDA link for this part.  -->
+<iframe class="d-xl-none" src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=eWRzdWNsYUBnbWFpbC5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043&amp;showCalendars=1&amp;showNav=1&amp;showDate=1&amp;showPrint=1&amp;showTabs=0&amp;mode=AGENDA" style="border:solid 1px #777" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+
+      </div>
+    </section>
+
+   
+<!-- Final section, the Getting Involved Section -->   
+    <section class="site-section bg-light aos-init" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+<!-- Section title -->  
+            <h2 class="section-title mb-3">Get Involved</h2>
+<!-- Section description -->  
+	    <p class="lead aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Sign up to get plugged in to our organizing, and follow us on social media to stay updated on our activities.</p>
+		<br>
+<!-- Link to your sign up form. Put the URL in the 'href' section. We use a google form, since it's secure and stable. -->  
+<span class="icon icon-star-o text-primary"></span>
+	    <a href="https://t.co/KNecn8Kdb0?amp=1" class="lead aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"> Sign Up Form </a>
+<span class="icon icon-star-o text-primary"></span>
+          </div>
+        </div>
+        <div class="row mb-5">
+          
+<!-- Social media links -->
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon icon-instagram d-block h4 text-primary"></span>
+			<!-- Instagram: Put the URL for your chapter's instagram in 'href', and the @ in the 'CHAPTER INSTAGRAM' text box -->
+              <a href="CHAPTER INSTAGRAM" class="social">CHAPTER INSTAGRAM @</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon icon-twitter-square d-block h4 text-primary"></span>
+			  <!-- Twitter: Put the URL for your chapter's twitter in 'href', and the @ in the 'CHAPTER TWITTER' text box -->
+              <a href="CHAPTER TWITTER" class="social">CHAPTER TWITTER @</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon icon-mail_outline d-block h4 text-primary"></span>
+			  <!-- Email: Put the URL for your chapter's email in 'href' after 'mailto:', and the email itself in the 'CHAPTER EMAIL' text box -->
+              <a href="mailto:CHAPTER EMAIL" class="social">CHAPTER EMAIL</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Do not remove this bit! You will get sued because capitalism is a *-great-* system :) -->
+    <footer class="site-footer" width="100%">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div>
+              <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright ©<script>document.write(new Date().getFullYear());</script>2020 All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  
+</body></html>
